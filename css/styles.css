@@ -106,7 +106,6 @@ textarea {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    /* outline: 1px solid teal; */
 }
 
 /* Header */
@@ -128,7 +127,7 @@ textarea {
     line-height: 1.19;
 }
 
-.logo  span {
+.logo-web {
     color: var(--accent-color);
 }
 /* Site navigation */
@@ -287,7 +286,7 @@ textarea {
     flex-direction: column;
 }
 
-.form-options a {
+.agreement-link {
     text-decoration: underline;
     color: var(--accent-color);
 }
@@ -381,7 +380,6 @@ textarea {
 .form-input:focus + .form-label,
 .form-input:not(:placeholder-shown) + .form-label {
     transform: translate(-29px, -40px);
-    /* transform: translateX(26px); */
     color: var(--accent-color);
     
     font-size: 12px;
@@ -514,16 +512,12 @@ textarea {
     background-color: var(--button-bg-color);
 }
 
-.advantages-link img {
-    margin: auto;
-}
-
 /* Service */
 
 .service-list {
     display: flex;
 }
-.service-list img {
+.service-list-pic {
     display: block;
 }
 
