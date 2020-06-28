@@ -1,6 +1,6 @@
 @import './utilits/variables';
 @import './base/normalize';
-@import './components/body';
+@import './utilits/common';
 @import './components/logo';
 @import './components/header';
 @import './components/hero';
@@ -11,3 +11,4 @@
 @import './components/footer';
 @import './components/portfolioNavigation';
 @import './components/portfolioPicslist';
+@import './components/modal';

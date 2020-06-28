@@ -5,7 +5,7 @@
 .portfolio-subtitle {
     padding-bottom: 4px;
 
-    color: var(--title-text-color);
+    color: $title-text-color;
 
     font-weight: 700;
     font-size: 18px;
@@ -18,7 +18,7 @@
     margin-bottom: 0px;
     padding-bottom: 20px;
 
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 
     font-size: 16px;
     line-height: 1.88;
@@ -67,7 +67,7 @@
     padding-left: 24px;
 
     background-color: rgba(33, 150, 243, 0.9);
-    color: var(--white-color);
+    color: $white-color;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
